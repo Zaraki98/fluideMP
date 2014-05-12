@@ -1,6 +1,6 @@
 -- tuyau
 
--- créé par turbogus et rerem, modifié par Zaraki98
+--cr�� par turbogus et rerem
 
 -- code licence gpl v2 ou superieur
 -- graphisme sous licence CC-BY-NC-SA
@@ -9,7 +9,7 @@
 --Tuyau vide
 -----------------
 
---Déclaration du tuyau vide :
+--D�claration du tuyau vide :
 
 minetest.register_node("tuyau:tuyau", {
 	description = "tuyau",
@@ -74,7 +74,7 @@ minetest.register_abm({
 --Tuyau remplis
 -----------------
 
---Déclaration du tuyau de liquide :
+--D�claration du tuyau d'eau :
 
 minetest.register_node("tuyau:tuyau_"..flu, {
 	description = "tuyau de "..flu,
@@ -104,7 +104,7 @@ minetest.register_abm({
 --Pompe
 -----------------
 
---Déclaration de la pompe :
+--D�claration de la pompe :
 
 minetest.register_node("tuyau:pompe", {
 	description = "pompe",
@@ -130,7 +130,7 @@ minetest.register_craft({
 	}
 })
 
---Déclaration de la pompe de liquide :
+--D�claration de la pompe de liquide :
 
 minetest.register_node("tuyau:pompe_"..flu, {
 	description = "pompe de "..flu,
@@ -191,7 +191,7 @@ minetest.register_abm({
 --Sortie
 -----------------
 
---Déclaration de la sortie :
+--D�claration de la sortie :
 
 minetest.register_node("tuyau:sortie", {
 	description = "sortie",
@@ -217,7 +217,7 @@ minetest.register_craft({
 	}
 })
 
---Déclaration de la sortie de liquide :
+--D�claration de la sortie de liquide :
 
 minetest.register_node("tuyau:sortie_"..flu, {
 	description = "sortie de "..flu,
